@@ -69,7 +69,7 @@ func loadFlowerbaseFromFile(filename string) error {
 	return json.Unmarshal(data, &Flowerbases)
 }
 
-// сохраняет  в  JSON файл.
+// сохраняет  в   JSON файл.
 func saveCarsToFile(filename string) error {
 	data, err := json.MarshalIndent(cars, "", "  ")
 	if err != nil {
